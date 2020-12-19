@@ -1,0 +1,340 @@
+/* 顶部 */
+
+.top {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f3f3f3;
+}
+
+.top .not-login {
+    float: left;
+}
+
+.top .nav-list {
+    float: right;
+}
+
+.top .nav-list .nav-item {
+    float: left;
+    margin-right: 10px;
+}
+
+.top .nav-list .nav-item .shopcar {
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+}
+
+
+/* 头部 */
+
+.head {
+    margin-bottom: 30px;
+    height: 110px;
+    background-color: #ffffff;
+}
+
+.head .logo {
+    float: left;
+    line-height: 110px;
+}
+
+.head .logo h1 {
+    height: 110px;
+}
+
+.head .logo h1 a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #52c41a;
+}
+
+.head .head-right {
+    float: left;
+}
+
+.head .head-right {
+    float: left;
+    height: 110px;
+}
+
+.head .serach-box {
+    margin-top: 18px;
+    width: 514px;
+    height: 42px;
+}
+
+.head .serach-box .search-input input {
+    float: left;
+    padding-left: 10px;
+    width: 400px;
+    height: 38px;
+    border: 2px solid #52c41a;
+    border-right: 0;
+    outline: none;
+}
+
+.head .serach-box .search-input .search-btn {
+    float: right;
+    width: 102px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #52c41a;
+    cursor: pointer;
+}
+
+.head .serach-box .search-input .search-btn:hover {
+    opacity: .6;
+}
+
+.head .nav-list .nav-item {
+    float: left;
+    margin-top: 23px;
+    margin-right: 41px;
+}
+
+.head .nav-list .nav-item .active {
+    color: #52c41a;
+}
+
+.head .nav-list .nav-item a {
+    font-size: 16px;
+    color: #333333;
+}
+
+
+/* 主体 */
+
+.main {
+    /* height: 800px; */
+    background-color: #eeeeee;
+}
+
+.main .crumb {
+    height: 40px;
+    line-height: 40px;
+    /* background-color: pink; */
+}
+
+.main .crumb a {
+    font-size: 14px;
+}
+
+.container .aside {
+    float: left;
+}
+
+.container .con-nav {
+    width: 186px;
+    padding: 10px;
+    /* height: 686px; */
+    border: 1px solid #d9d9d9;
+}
+
+.container .con-nav .con-nav-item {
+    padding: 5px;
+}
+
+.container .con-nav .con-nav-item a {
+    font-size: 16px;
+}
+
+.container h4 {
+    width: 208px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333333;
+}
+
+.container .con-product {
+    float: left;
+}
+
+.container .con-product .crumb {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.container .con-product .default {
+    float: left;
+    width: 83px;
+    color: #fff;
+    background-color: #52c41a;
+    border: 1px solid #52c41a;
+    cursor: pointer;
+}
+
+.container .con-product .acod-price {
+    float: left;
+    width: 82px;
+    border: 1px solid #d9d9d9;
+    color: rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+}
+
+.container .product-list {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container .product-list .product-item {
+    float: left;
+    margin-right: 10px;
+    padding: 20px 10px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+
+.container .product-list .product-item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.container .product-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.container .product-list a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.container .product-list img {
+    width: 180px;
+    height: 180px;
+}
+
+.container .product-list .product-name {
+    margin-top: 5px;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container .product-list .product-price-box {
+    margin-top: 25px;
+}
+
+.container .product-list .product-price-box .product-price {
+    float: left;
+    font-size: 14px;
+    color: #ff0011;
+}
+
+.container .product-list .product-price-box .product-num {
+    float: right;
+    font-size: 12px;
+    color: #929292;
+}
+
+
+/* .con-product .pagin {
+    margin-left: 10px;
+    width: 862px;
+    height: 32px;
+    text-align: center;
+} */
+
+
+/* .con-product .pagin .pagin-item {
+    margin-left: -4px;
+    display: inline-block;
+    font-size: 12px;
+    color: rgba(0, 0, 0, .45);
+    width: 47px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    cursor: pointer;
+}
+
+.con-product .pagin .active {
+    border-color: #52c41a;
+    background-color: #52c41a;
+} */
+
+
+/* 底部 */
+
+.footer {
+    height: 252px;
+    background-color: #2f2f2f;
+}
+
+.footer .promise {
+    position: relative;
+    margin-bottom: 10px;
+    height: 145px;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+.footer .promise div {
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer .promise div .icon {
+    float: left;
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+}
+
+.footer .promise .noreason {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: top -20px;
+}
+
+.footer .promise .poste {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: top -20px;
+}
+
+.footer .promise .quality {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: top -20px;
+}
+
+.footer .links {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer .links a {
+    font-size: 12px;
+    padding: 0 10px;
+    color: #888888;
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #888888;
+}

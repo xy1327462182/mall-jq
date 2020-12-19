@@ -1,0 +1,121 @@
+/* 顶部开始 */
+
+.top {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f3f3f3;
+}
+
+.top .not-login {
+    float: left;
+}
+
+.top .nav-list {
+    float: right;
+}
+
+.top .nav-list .nav-item {
+    float: left;
+    margin-right: 10px;
+}
+
+.top .nav-list .nav-item .shopcar {
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+}
+
+
+
+
+/* 头部开始 */
+
+.head {
+    height: 110px;
+    background-color: #fff;
+}
+
+.head .logo {
+    float: left;
+    line-height: 110px;
+}
+
+.head .logo h1 {
+    height: 110px;
+}
+
+.head .logo h1 a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #52c41a;
+}
+
+.head .head-right {
+    float: left;
+    /* margin-left: 10px; */
+    height: 110px;
+}
+
+.head .head-right .search-box {
+    margin-top: 18px;
+    width: 514px;
+    height: 42px;
+}
+
+.head .head-right .search-box .search {
+    float: left;
+    padding-left: 10px;
+    width: 400px;
+    height: 38px;
+    border: 2px solid #52c41a;
+    border-right: 0;
+    outline: none;
+}
+
+.head .head-right .search-box .btn {
+    float: right;
+    width: 102px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #52c41a;
+    cursor: pointer;
+}
+
+.head .serach-box .search-input .search-btn:hover {
+    opacity: .6;
+}
+
+.head .nav-list .nav-item {
+    float: left;
+    margin-top: 23px;
+    margin-right: 41px;
+}
+
+.head .nav-list .nav-item .active {
+    color: #52c41a;
+}
+
+.head .nav-list .nav-item a {
+    font-size: 16px;
+    color: #333333;
+}
+
+
+/* 主体开始 */
+
+.main {
+    height: 800px;
+    background-color: #eeeeee;
+}
+
+
+/* 底部开始 */
+
+.footer {
+    height: 252px;
+    background-color: #2f2f2f;
+}

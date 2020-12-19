@@ -1,0 +1,259 @@
+/* 顶部开始 */
+
+.top {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f3f3f3;
+}
+
+.top .yet-login {
+    float: left;
+}
+
+.top .yet-login div {
+    float: left;
+    margin-right: 10px;
+}
+
+.top .nav-list {
+    float: right
+}
+
+.top .nav-list .nav-item {
+    float: left;
+    margin-right: 10px;
+}
+
+.top .nav-list .nav-item .shopcar {
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+}
+
+
+/* 头部开始 */
+
+.head {
+    height: 110px;
+    background-color: #fff;
+    border-bottom: 1px solid #52c41a;
+    margin-bottom: 30px;
+}
+
+.head .logo {
+    line-height: 110px;
+    float: left;
+}
+
+.head .logo a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #52c41a;
+}
+
+.head .head-right {
+    float: left;
+    height: 110px;
+}
+
+.head .head-right .search-box {
+    margin-top: 18px;
+    width: 514px;
+    height: 42px;
+}
+
+.head-right .search-box input {
+    float: left;
+    padding-left: 10px;
+    width: 400px;
+    height: 38px;
+    border: 2px solid #52c41a;
+    border-right: 0;
+    outline: none;
+}
+
+.head .search-box .sub {
+    float: right;
+    width: 102px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #52c41a;
+    cursor: pointer;
+}
+
+.head .search-box .sub:hover {
+    opacity: .6;
+}
+
+.head .nav-list .nav-item {
+    float: left;
+    margin-top: 23px;
+    margin-right: 41px;
+}
+
+.head .nav-list .nav-item .active {
+    color: #52c41a;
+}
+
+.head .nav-list .nav-item a {
+    font-size: 16px;
+    color: #333333;
+}
+
+.head .nav-list .nav-item .link:hover {
+    color: #1890ff;
+}
+
+
+/* 主体开始 */
+
+.main {
+    height: 800px;
+    background-color: #eeeeee;
+}
+
+.main .crumb {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.main .crumb a {
+    font-size: 14px;
+}
+
+.main-bd .nav-list {
+    float: left;
+    margin-right: 20px;
+    padding-top: 20px;
+    width: 150px;
+    height: 580px;
+    background-color: #fff;
+}
+
+.main-bd .nav-list .nav-item {
+    height: 40px;
+    width: 150px;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.main-bd .nav-list .nav-item .active {
+    color: #1890ff;
+}
+
+.main-bd .main-bd-info {
+    float: right;
+    width: 870px;
+    height: 560px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.main-bd .main-bd-info .item {
+    height: 100px;
+    margin-top: 10px;
+}
+
+.main-bd .main-bd-info .item .item-title {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.main-bd .main-bd-info .item .order-list .order-item {
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.45);
+    border: 1px solid #cccccc;
+}
+
+.main-bd .main-bd-info .item .order-list .active {
+    background-color: #52c41a;
+}
+
+.main-bd .main-bd-info .item .order-list .active:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+/* 底部开始 */
+
+.footer {
+    height: 252px;
+    background-color: #2f2f2f;
+}
+
+.footer .promise {
+    position: relative;
+    margin-bottom: 10px;
+    height: 145px;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+.footer .promise div {
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer .promise div .icon {
+    float: left;
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+}
+
+.footer .promise .noreason {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: top -20px;
+}
+
+.footer .promise .poste {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: top -20px;
+}
+
+.footer .promise .quality {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: top -20px;
+}
+
+.footer .links {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer .links a {
+    font-size: 12px;
+    padding: 0 10px;
+    color: #888888;
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #888888;
+}
